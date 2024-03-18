@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/ecosystem-management-and-monetization": "pages/ecosystem-management-and-monetization.js",
-  "/enterprise-indirect-taxation-management": "pages/enterprise-indirect-taxation-management.js"
+  "/products": "pages/products.js"
 }

@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/ecosystem-management-and-monetization": [
+    "/products": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ecosystem-management-and-monetization.js"
-    ],
-    "/enterprise-indirect-taxation-management": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/enterprise-indirect-taxation-management.js"
+      "static/chunks/pages/products.js"
     ]
   },
   "ampFirstPages": []
