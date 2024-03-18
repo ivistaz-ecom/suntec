@@ -109,7 +109,6 @@ function LinksExample() {
               />
             </div>
           </Col>
-          <Col></Col>
         </Row>
       </Container>
       <Container>
@@ -117,7 +116,7 @@ function LinksExample() {
           <Col lg={6} sm={12}>
             <img src="/images/xelerate.png" height="350" className="w-100" />
           </Col>
-          <Col lg={6} sm={12} className="m-2">
+          <Col lg={5} sm={12} className="m-2">
             <h2 className="fs-1">Why SunTec Xelerate?</h2>
             <p className="fs-5">
               SunTec&apos;s Enterprise Product Management on SunTec Xelerate
@@ -243,7 +242,6 @@ function LinksExample() {
               </Card.Body>
             </Card>
           </Col>
-          <Col></Col>
         </Row>
       </Container>
       <Container className="gra_color pt-3" fluid>
@@ -257,31 +255,31 @@ function LinksExample() {
             />
           </Col>
           <Col>
-            <h3 className="text-white fs-3 text-center">
+            <h3 className="text-white fs-4">
               &quot;Create a single source of truth for all products, services,
               bundles and offers.&quot;
             </h3>
             <ul className="mt-5">
-              <li className="text-white fs-5">
+              <li className="text-white fs-6">
                 <strong>A central repository of products and services:</strong>{' '}
                 Create a central repository of both internal as well as third
                 party products and services with complete life cycle management
                 from ideation to expiry.
               </li>
-              <li className="text-white fs-5">
+              <li className="text-white fs-6">
                 <strong>Get more control with a layered architecture:</strong>{' '}
                 Establish an enterprise wide, hierarchical capability allowing
                 central management, control and tracking of all market facing
                 products. Consequently, prevent miss-selling and enable the
                 right choice for each customer.
               </li>
-              <li className="text-white fs-5">
+              <li className="text-white fs-6">
                 <strong>Manage product lifecycle with deep insights:</strong>
                 Ideate and launch the right products, monitor and track
                 performance of existing products and drive product reviews,
                 renewals and expiry.
               </li>
-              <li className="text-white fs-5">
+              <li className="text-white fs-6">
                 <strong>Depend on an intuitive, easy-to-use framework:</strong>{' '}
                 With extensive configuration ensure rapid time to market and
                 easy maintenance. Enable seamless integration with the
@@ -295,7 +293,7 @@ function LinksExample() {
         <h1 className="fs-2 mt-5 mb-5">Benefits</h1>
         <Row>
           <Col sm={12} lg={4} xs={12} md={6}>
-            <Card className="c_shadow" style={{ height: 15 + 'em' }}>
+            <Card className="c_shadow" style={{ height: 16 + 'em' }}>
               <Card.Img className="card-icon-left" src="/images/icon_31.png" />
               <Card.Body className="c_body">
                 <Card.Text>
@@ -306,7 +304,7 @@ function LinksExample() {
             </Card>
           </Col>
           <Col sm={12} lg={4} xs={12} md={6}>
-            <Card className="c_shadow" style={{ height: 15 + 'em' }}>
+            <Card className="c_shadow" style={{ height: 16 + 'em' }}>
               <Card.Img className="card-icon-left" src="/images/icon_32.png" />
               <Card.Body className="c_body">
                 <Card.Text>
@@ -317,7 +315,7 @@ function LinksExample() {
             </Card>
           </Col>
           <Col sm={12} lg={4} xs={12} md={12}>
-            <Card className="c_shadow" style={{ height: 15 + 'em' }}>
+            <Card className="c_shadow" style={{ height: 16 + 'em' }}>
               <Card.Img className="card-icon-left" src="/images/icon_33.png" />
               <Card.Body className="c_body">
                 <Card.Text>
@@ -331,7 +329,7 @@ function LinksExample() {
 
         <Row>
           <Col sm={12} lg={4} xs={12} md={6}>
-            <Card className="c_shadow" style={{ height: 15 + 'em' }}>
+            <Card className="c_shadow" style={{ height: 16 + 'em' }}>
               <Card.Img className="card-icon-left" src="/images/icon_34.png" />
               <Card.Body className="c_body">
                 <Card.Text>
@@ -342,7 +340,7 @@ function LinksExample() {
             </Card>
           </Col>
           <Col sm={12} lg={4} xs={12} md={6}>
-            <Card className="c_shadow" style={{ height: 15 + 'em' }}>
+            <Card className="c_shadow" style={{ height: 16 + 'em' }}>
               <Card.Img className="card-icon-left" src="/images/icon_35.png" />
               <Card.Body className="c_body">
                 <Card.Text>
@@ -353,7 +351,7 @@ function LinksExample() {
             </Card>
           </Col>
           <Col sm={12} lg={4} xs={12} md={12}>
-            <Card className="c_shadow" style={{ height: 15 + 'em' }}>
+            <Card className="c_shadow" style={{ height: 16 + 'em' }}>
               <Card.Img className="card-icon-left" src="/images/icon_36.png" />
               <Card.Body className="c_body">
                 <Card.Text>
@@ -366,7 +364,7 @@ function LinksExample() {
         </Row>
         <Row>
           <Col sm={12} lg={4} xs={12} md={6}>
-            <Card className="c_shadow" style={{ height: 15 + 'em' }}>
+            <Card className="c_shadow" style={{ height: 16 + 'em' }}>
               <Card.Img className="card-icon-left" src="/images/icon_37.png" />
               <Card.Body className="c_body">
                 <Card.Text>
@@ -377,7 +375,7 @@ function LinksExample() {
             </Card>
           </Col>
           <Col sm={12} lg={4} xs={12} md={6}>
-            <Card className="c_shadow" style={{ height: 15 + 'em' }}>
+            <Card className="c_shadow" style={{ height: 16 + 'em' }}>
               <Card.Img className="card-icon-left" src="/images/icon_38.png" />
               <Card.Body className="c_body">
                 <Card.Text>
@@ -389,7 +387,7 @@ function LinksExample() {
             </Card>
           </Col>
           <Col sm={12} lg={4} xs={12} md={12}>
-            <Card className="c_shadow" style={{ height: 15 + 'em' }}>
+            <Card className="c_shadow" style={{ height: 16 + 'em' }}>
               <Card.Img className="card-icon-left" src="/images/icon_39.png" />
               <Card.Body className="c_body">
                 <Card.Text>

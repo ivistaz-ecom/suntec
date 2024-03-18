@@ -55,13 +55,13 @@ function Insights({ tags }) {
               Links = Type + '/' + Pslug
             }
             return (
-              <Col key={post['id']} sm={6} lg={4} xs={6} md={6}>
+              <Col key={post['id']} sm={6} lg={4} xs={12} md={6}>
                 <Link href={Links} className="pr-text text-decoration-none">
-                  <Card>
+                  <Card className="mb-3">
                     <Card.Img variant="top" src={post['featured_img_src']} />
                     <Card.Body
                       className="text-start"
-                      style={{ height: 6 + 'em' }}
+                      style={{ height: 8 + 'em' }}
                     >
                       <span className="badge text-bg-warning mb-3">{Type}</span>
                       <Card.Title className="fs-6">{post['title']}</Card.Title>

@@ -38,7 +38,7 @@ function InsightsBtn({ tags }) {
   return (
     <Container
       className="wbg-sun text-center d-flex flex-column justify-content-center"
-      style={{ height: 10 + 'em' }}
+      style={{ height: 14 + 'em' }}
     >
       <Row className="center">
         {allInsights.map((post, index) => {
