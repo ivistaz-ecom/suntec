@@ -518,14 +518,15 @@ li h6:hover {
   background-color: #000000f5;
   background-image: url('/images/lines.png');
   color: #fff;
-  height: 200px;
+  height: auto;
   display: flex;
   align-items: center;
+  padding-top: 10px;
 }
 
 .partner-logo {
   height: 159px;
-  width: 277px;
+  width: 100%;
   border: 1px solid #eaeaea;
   margin-top: 22px;
 }
@@ -1105,13 +1106,11 @@ h1.fs-1 {
 
 .square {
   color: #ffff;
-  height: auto;
   text-align: start;
-  padding-left: 241px;
-  width: 250px;
   border-top: 4px solid #fff;
   border-bottom: 4px solid #fff;
   border-left: 4px solid #fff;
+  padding: 41px;
 }
 
 .square-dark {
@@ -1186,6 +1185,7 @@ h1.fs-1 {
 
 .csr-img {
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .posts {
