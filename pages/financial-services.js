@@ -62,13 +62,12 @@ function LinksExample() {
     }}>
 
 <Row>
-<Col>
+<Col lg={5} xs={12}sm={12} md={6}>
 <div className="b-text">
 <h1>Simplifying Digital Transformation</h1>
 <p>SunTec Xelerate provides financial organizations with the agility and scalability to digitally transform their offerings and reap immediate benefits of product innovation, customer experience management and real-time analytics.</p>
 </div>
-</Col> 
-<Col></Col> 
+</Col>  
 </Row>
 </Container>
 <Container>
@@ -80,8 +79,8 @@ function LinksExample() {
 <h2 className="fs-2 mt-5 mb-5">The Challenges</h2>
 <Row>  
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/1.png"/>
+<Card className="d-flex flex-lg-row flex-column align-items-center border-0 bg-transparent c-height">
+      <Card.Img className="card-icon-left img-fluid p-2 p-lg-3" src="images/1.png"/>
       <Card.Body>
         <Card.Title>Legacy Core Replacement</Card.Title>
         <Card.Text>
@@ -91,8 +90,8 @@ function LinksExample() {
     </Card>
 </Col>
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/2.png"/>
+<Card className="d-flex flex-lg-row flex-column align-items-center border-0 bg-transparent c-height">
+      <Card.Img className="card-icon-left p-2 p-lg-3" src="images/2.png"/>
       <Card.Body>
         <Card.Title>Digital Savvy Customer</Card.Title>
         <Card.Text>
@@ -104,8 +103,8 @@ function LinksExample() {
 </Row>
 <Row>  
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/3.png"/>
+<Card className="d-flex flex-lg-row flex-column align-items-center border-0 bg-transparent c-height">
+      <Card.Img className="card-icon-left p-2 p-lg-3" src="images/3.png"/>
       <Card.Body>
         <Card.Title>Traditional Product Based Business Model</Card.Title>
         <Card.Text>
@@ -115,8 +114,8 @@ function LinksExample() {
     </Card>
 </Col>
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/4.png"/>
+<Card className="d-flex flex-lg-row flex-column align-items-center border-0 bg-transparent c-height">
+      <Card.Img className="card-icon-left p-2 p-lg-3" src="images/4.png"/>
       <Card.Body>
         <Card.Title>Expanding Competitive Landscape</Card.Title>
         <Card.Text>
@@ -128,8 +127,8 @@ function LinksExample() {
 </Row>
 <Row>  
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img  className="card-icon-left" src="images/5.png"/>
+<Card className="d-flex flex-lg-row flex-column align-items-center border-0 bg-transparent c-height">
+      <Card.Img  className="card-icon-left p-2 p-lg-3" src="images/5.png"/>
       <Card.Body>
         <Card.Title>Time to Market</Card.Title>
         <Card.Text>
@@ -139,8 +138,8 @@ function LinksExample() {
     </Card>
 </Col>
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/6.png"/>
+<Card className="d-flex flex-lg-row flex-column align-items-center border-0 bg-transparent c-height">
+      <Card.Img className="card-icon-left p-2 p-lg-3 justify-content-center"  src="images/6.png"/>
       <Card.Body>
         <Card.Title>Adoption of Open Banking</Card.Title>
         <Card.Text>
@@ -152,11 +151,11 @@ function LinksExample() {
 </Row>
 
 </Container>
-<Container className="gra_color" fluid style={{height:35 + 'em'}}>
+<Container className="gra_color d-flex flex-column flex-lg-row">
 <Row>
-  <Col><img src="/images/xelerate.png" height="300"/></Col>
+  <Col><img className='w-100 d-flex flex-column flex-lg-row' src="/images/xelerate.png" height="300"/></Col>
   <Col>
-  <h3 className="text-white fs-2">How SunTec Simplifies Your Transformation Journey? (Financial services)</h3>
+  <h3 className="text-white fs-2 d-flex flex-column flex-lg-row">How SunTec Simplifies Your Transformation Journey? (Financial services)</h3>
   <ul className="mt-5">
    <li className="text-white fs-5"><strong>Adopt digital transformation without replacing your legacy core systems:</strong> Add customer engagement capabilities by &apos;hollowing out customer engagement functions&apos; and managing it as a horizontal cross-enterprise layer.</li> 
    <li className="text-white fs-5"><strong>Transition from being product-focused to customer-first:</strong>

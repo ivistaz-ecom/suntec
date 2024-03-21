@@ -47,7 +47,7 @@ body {
   color: #642566 !important;
 }
 .wbg-green {
-  background-color: #defcfe !important;
+  background-color: #DFFCFE !important;
 }
 .wbg-greent {
   background-image: linear-gradient(113deg, #016163 78%, #01b1af 74%);
@@ -74,7 +74,7 @@ body {
   background-color: #098989 !important;
 }
 .txt-dark-green {
-  color: #098989 !important;
+  color:#1D8A89   !important;
 }
 .wbg-green {
   background-color: #defcfe;
@@ -773,12 +773,15 @@ img.t_img {
 }
 
 .pe-text {
-  background-color: #95519e;
-  color: #ffff;
-  height: auto;
+  background-color: #fff;
+  color: #494949;
   text-align: start;
-  padding: 41px;
-  width: 700px;
+  padding: 10px 35px 5px 35px ;
+
+
+  width: 100%;
+
+  
 }
 .podcast {
   padding-left: 11% !important;
@@ -791,14 +794,16 @@ img.t_img {
   height: auto;
   text-align: start;
   padding: 41px;
-  width: 700px;
+  background-image:no-repeat;
+  
+  /* width: 400px; */
 }
 .pt-text {
   background-color: #fff;
   color: #000;
   height: auto;
   text-align: start;
-  padding: 41px;
+  padding: 11px;
   width: 100%;
 }
 a.expand-btn:hover {
@@ -875,9 +880,7 @@ a {
   flex-direction: column;
   justify-content: center;
 }
-h1.fs-1 {
-  margin-left: 0px;
-}
+
 
 .c-text {
   background-color: #ffffffcb;
@@ -903,16 +906,19 @@ h1.fs-1 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   border-bottom: 2px solid #529b9a;
 }
+
+
 
 .pe-banner {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1028,6 +1034,7 @@ h1.fs-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+ 
 }
 .middle p {
   margin-bottom: 0rem !important;
@@ -1118,17 +1125,20 @@ h1.fs-1 {
   color: #000;
   height: auto;
   text-align: start;
-  padding-left: 241px;
+  margin-left: 40px;
+  padding-left: 243px;
   width: 250px;
   border-top: 4px solid #000;
   border-bottom: 4px solid #000;
   border-left: 4px solid #000;
 }
+
 .square-light {
   color: #fff;
   height: auto;
   text-align: start;
-  padding-left: 241px;
+  
+  padding-left: 242px;
   width: 250px;
   border-top: 4px solid #fff;
   border-bottom: 4px solid #fff;
@@ -1151,8 +1161,15 @@ h1.fs-1 {
   text-align: start;
   padding: 0px;
   width: 550px;
-  left: -182px;
+  left: -180px;
   position: relative;
+}
+.square-texts-dark {
+  color: #000;
+  height: auto;
+   width: 540px;
+ position: relative;
+ margin-left: 500px;
 }
 .square-text-light {
   color: #fff;
@@ -1160,29 +1177,33 @@ h1.fs-1 {
   text-align: start;
   padding: 0px;
   width: 550px;
+
+
+  margin-left: -30px;
   left: -182px;
   position: relative;
 }
 
 .square .lin {
   height: 67px;
-  width: 5px;
+  width: 4px;
   flex: 1;
   background-color: #fff;
 }
 
 .square-dark .lin-dark {
   height: 67px;
-  width: 5px;
+  width: 4px;
   flex: 1;
   background-color: #000;
 }
 .square-light .lin-light {
   height: 67px;
-  width: 5px;
+  width: 4px;
   flex: 1;
   background-color: #fff;
 }
+
 
 .csr-img {
   width: 100%;
@@ -1441,8 +1462,7 @@ a.float-right {
   padding-left: 0px !important;
 }
 
-.blog-desc {
-}
+
 
 .blog-img {
   width: 100%;
@@ -1456,9 +1476,17 @@ a.float-right {
 }
 
 @media only screen and (max-width: 600px) {
+  #demo{
+    width: 100% !important;
+  }
+  .related{
+    text-align: center;
+  }
+  
   .video-post {
     height: auto;
   }
+
   .ribbon-1:before {
     height: 0;
     width: 0;
@@ -1504,6 +1532,48 @@ a.float-right {
   .news-in {
     width: 100% !important;
   }
+  .square-text-dark{
+    width: 280px;
+    left:-180px;
+    margin-left: -40px;
+  }
+  .square-texts-dark {
+    color: #000;
+   width: 100%;
+  margin-top: 250px;
+   margin-left: 22px;
+   font-weight: 100;
+  }
+
+   .square-text-light {
+    color: #fff;
+    height: auto;
+    text-align: start;
+    padding: 0px;
+   margin: 0px;
+    width: 280px;
+    margin-left: -40px;
+    left: -60;
+    position: relative;
+  }
+
+  /* .images01{
+    width: 100%;
+  } */
+  
+  .pe-text {
+    width: 100%;
+  }
+
+  .pe-banner {
+    height: auto;
+  }
+}
+
+
+.bottom-95{
+  bottom: 5%;
+margin-top: 60px;
 }
 
 .mb-n1 {
@@ -1520,3 +1590,4 @@ a.float-right {
   background: #def6f5 !important;
   border-radius: 50px 0px !important;
 }
+/* hii i am jerry */

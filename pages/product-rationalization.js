@@ -73,7 +73,7 @@ function productRationalization() {
 <Row>
 <Col>
 <div className="square-dark">
-<div class="lin-dark"></div>
+<div className="lin-dark"></div>
 <div className="square-text-dark ">
 <h1 className="fs-1">SunTec Product Rationalization Solution for Banking</h1>
 <p className="fs-5">A simpler, contemporary product portfolio lets you focus on personalizing offers for the customer. Product rationalization reduces complexity and adds agility, flexibility and choice</p>
@@ -115,51 +115,51 @@ function productRationalization() {
       </Container>
       <Container className="mt-5">
         <Row >
-          <Col>
-<div class="card border-0" >
+          <Col xs={12} sm={3} md={4} >
+<div className="card border-0" >
   <img src="images/centralize.svg" class="card-img-top n_icon" alt="..."/>
-  <div class="card-body text-center">
-    <h5 class="card-title fw-bold">Centralize and Simplify</h5>
-    <p class="card-text fs-5">Centralize internal and external products and services, and use a rule-based solution to deliver innovative offerings</p>
+  <div className="card-body text-center">
+    <h5 className="card-title fw-bold">Centralize and Simplify</h5>
+    <p className="card-text fs-5">Centralize internal and external products and services, and use a rule-based solution to deliver innovative offerings</p>
   </div>
 </div>
 </Col>
-          <Col>
-          <div class="card border-0" >
-  <img src="images/agile.svg" class="card-img-top n_icon" alt="..."/>
-  <div class="card-body text-center">
-    <h5 class="card-title fw-bold">Stay Agile</h5>
-    <p class="card-text fs-5">Respond to changing market needs by introducing hyper-personalized offers for dynamic customer segments</p>
+          <Col xs={12} sm={3} md={4}>
+          <div className="card border-0" >
+  <img src="images/agile.svg" className="card-img-top n_icon" alt="..."/>
+  <div className="card-body text-center">
+    <h5 className="card-title fw-bold">Stay Agile</h5>
+    <p className="card-text fs-5">Respond to changing market needs by introducing hyper-personalized offers for dynamic customer segments</p>
   </div>
 </div>
           </Col>
-          <Col>
-<div class="card border-0" >
-  <img src="images/stability.svg" class="card-img-top n_icon" alt="..."/>
-  <div class="card-body text-center">
-    <h5 class="card-title fw-bold">Ensure Stability</h5>
-    <p class="card-text fs-5">Protect the core system’s stability by decoupling core functions from customer engagement and personalization functions</p>
+          <Col xs={12} sm={3} md={4}>
+<div className="card border-0" >
+  <img src="images/stability.svg" className="card-img-top n_icon" alt="..."/>
+  <div className="card-body text-center">
+    <h5 className="card-title fw-bold">Ensure Stability</h5>
+    <p className="card-text fs-5">Protect the core system’s stability by decoupling core functions from customer engagement and personalization functions</p>
   </div>
 </div>
           </Col>
         </Row>
 
         <Row className="mt-4">
-          <Col>
-<div class="card border-0" >
-  <img src="images/centralize.svg" class="card-img-top n_icon" alt="..."/>
-  <div class="card-body text-center">
-    <h5 class="card-title fw-bold">Speed Up and Save</h5>
-    <p class="card-text fs-5">Easy integration and interoperability means accelerated time-to-market and reduced costs of creating and launching new offerings</p>
+          <Col xs={12} sm={3} md={4}>
+<div className="card border-0" >
+  <img src="images/centralize.svg" className="card-img-top n_icon" alt="..."/>
+  <div className="card-body text-center">
+    <h5 className="card-title fw-bold">Speed Up and Save</h5>
+    <p className="card-text fs-5">Easy integration and interoperability means accelerated time-to-market and reduced costs of creating and launching new offerings</p>
   </div>
 </div>
 </Col>
-          <Col>
-          <div class="card border-0" >
-  <img src="images/agile.svg" class="card-img-top n_icon" alt="..."/>
-  <div class="card-body text-center">
-    <h5 class="card-title fw-bold">Configure Easily</h5>
-    <p class="card-text fs-5">Use easy-to-use, drag and drop capabilities to rapidly create hyper-personalized offerings and reduce product complexity and costs significantly</p>
+          <Col xs={12} sm={3} md={4}>
+          <div className="card border-0" >
+  <img src="images/agile.svg" className="card-img-top n_icon" alt="..."/>
+  <div className="card-body text-center">
+    <h5 className="card-title fw-bold">Configure Easily</h5>
+    <p className="card-text fs-5">Use easy-to-use, drag and drop capabilities to rapidly create hyper-personalized offerings and reduce product complexity and costs significantly</p>
   </div>
 </div>
           </Col>
@@ -172,64 +172,70 @@ function productRationalization() {
       <Container className="mt-5">
         <h2 className="mb-3">Key Capabilities and Benefits ​</h2>
         <Row>
-          <Col>
-  <div class="card border-0">
-  <div class="card-body">
-    <h5 class="card-title">Enterprise-wide Product Catalog</h5>
-    <p class="card-text">Establish a centralized repository of internal and partner products and services, and create and manage different versions of those, to reduce time-to-market and improve operational efficiency.</p>
+          <Col xs={12} sm={3} md={4}>
+  <div className="card border-0">
+  <div className="card-body">
+    <h5 className="card-title">Enterprise-wide Product Catalog</h5>
+    <hr className="line-20 " />
+    <p className="card-text">Establish a centralized repository of internal and partner products and services, and create and manage different versions of those, to reduce time-to-market and improve operational efficiency.</p>
     
   </div>
 </div>
 </Col>
-<Col>
-  <div class="card border-0">
-  <div class="card-body">
-    <h5 class="card-title">Dynamic Segmentation</h5>
-    <p class="card-text">Personalize and contextualize offerings by dynamically segmenting customers based on their behavior and needs, and by defining and automating eligibility criteria.</p>
+<Col xs={12} sm={3} md={4}>
+  <div className="card border-0">
+  <div className="card-body">
+    <h5 className="card-title">Dynamic Segmentation</h5>
+    <hr className="line-20" />
+    <p className="card-text">Personalize and contextualize offerings by dynamically segmenting customers based on their behavior and needs, and by defining and automating eligibility criteria.</p>
     
   </div>
 </div>
           </Col>
-          <Col>
-  <div class="card border-0">
-  <div class="card-body">
-    <h5 class="card-title">Product and Offer Lifecycle Management</h5>
-    <p class="card-text">Standardize end-to-end product and offer lifecycle management and utilize simulation capabilities to meet customer expectations in an agile manner while ensuring efficient revenue management.</p>
+          <Col xs={12} sm={3} md={4}>
+  <div className="card border-0">
+  <div className="card-body">
+    <h5 className="card-title">Product and Offer Lifecycle Management</h5>
+    <hr className="line-20 " />
+    <p className="card-text">Standardize end-to-end product and offer lifecycle management and utilize simulation capabilities to meet customer expectations in an agile manner while ensuring efficient revenue management.</p>
     
   </div>
 </div>
 </Col>
         </Row>
         <Row className="mt-4">
-          <Col>
-  <div class="card border-0">
-  <div class="card-body">
-    <h5 class="card-title">Personalized Offers</h5>
-    <p class="card-text">Personalize offers for dynamic customer segments, by bundling internal and partner products and services and by customizing conditions to meet individual customer needs based on the context and their unique journeys.</p>
+          <Col xs={12} sm={3} md={4}>
+  <div className="card border-0">
+  <div className="card-body">
+    <h5 className="card-title">Personalized Offers</h5>
+    <hr className="line-20 " />
+    <p className="card-text">Personalize offers for dynamic customer segments, by bundling internal and partner products and services and by customizing conditions to meet individual customer needs based on the context and their unique journeys.</p>
     
   </div>
 </div>
 </Col>
-<Col>
-  <div class="card border-0">
-  <div class="card-body">
-    <h5 class="card-title">Analysis and Insights</h5>
-    <p class="card-text">Evaluate and compare customer behavior, usage and profitability trends, by product, bundle, offer, sub-segment, region and unit among others and conduct what-if profitability analysis using multiple parameters to inform decisions.</p>
+<Col xs={12} sm={3} md={4}>
+  <div className="card border-0">
+  <div className="card-body">
+    <h5 className="card-title">Analysis and Insights</h5>
+    <hr className="line-20 " />
+    <p className="card-text">Evaluate and compare customer behavior, usage and profitability trends, by product, bundle, offer, sub-segment, region and unit among others and conduct what-if profitability analysis using multiple parameters to inform decisions.</p>
   </div>
 </div>
           </Col>
-          <Col>
-  <div class="card border-0">
-  <div class="card-body">
-    <h5 class="card-title">Centralized Engagement Layer</h5>
-    <p class="card-text">Utilize an agile, horizontal engagement layer that can integrate seamlessly with legacy core systems and modern customer-facing systems alike to enhance overall agility, without disturbing the stability of core systems. This obviates the need for core replacement and reduces the total cost of ownership and time-to-market significantly.</p>
+          <Col xs={12} sm={3} md={4}>
+  <div className="card border-0">
+  <div className="card-body">
+    <h5 className="card-title">Centralized Engagement Layer</h5>
+    <hr className="line-20 " />
+    <p className="card-text">Utilize an agile, horizontal engagement layer that can integrate seamlessly with legacy core systems and modern customer-facing systems alike to enhance overall agility, without disturbing the stability of core systems. This obviates the need for core replacement and reduces the total cost of ownership and time-to-market significantly.</p>
     
   </div>
 </div>
 </Col>
 </Row>
       </Container>
-      <CtaCall text='130+ leading organizations across 45+ countries use SunTec’s Xelerate to deliver value.' url='request-a-demo/' btn="See SunTec Xelerate in action"/>
+      <CtaCall text='150+ leading organizations across 45+ countries use SunTec’s Xelerate to deliver value.' url='request-a-demo/' btn="See SunTec Xelerate in action"/>
       <Container className="mt-5">
         <h2 className="mb-4">SunTec Products That Enable Rationalization</h2>
         <Row>
@@ -238,6 +244,7 @@ function productRationalization() {
       <Card.Img className="card-icon-left" src="images/icon_21.png"/>
       <Card.Body>
         <Card.Title>Enterprise Product Management</Card.Title>
+       
       </Card.Body>
     </Card>
           </Col>
@@ -248,6 +255,7 @@ function productRationalization() {
       <Card.Img className="card-icon-left" src="images/icon_21.png"/>
       <Card.Body>
         <Card.Title>Dynamic Offer Management</Card.Title>
+      
       </Card.Body>
     </Card>
           </Col>

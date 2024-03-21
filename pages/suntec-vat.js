@@ -82,9 +82,7 @@ function productRationalization() {
 </div>
 </Col> 
 
-              </Row>
-
-              
+</Row>      
 
 </Container>      
           <Container className="mt-5 mb-5">
@@ -95,15 +93,15 @@ function productRationalization() {
               <p className="fs-5">Learn more about our <Link href="/enterprise-indirect-taxation-management/">Enterprise Indirect Taxation Management</Link> product</p>
               
           </Container>
-<Container className="p-3 pe-banner" fluid style={{ 
+<Container className="p-3  pe-banner" fluid style={{ 
 backgroundImage: `url("/images/suntec-vat.jpg")` 
 }}>
-<Row>
-<Col>
-</Col> 
-<Col>
-<div className="pe-text" >
-<h1>Understanding the Complexity of Deploying a VAT Solution</h1>
+<Row >
+<Col className='d-lg-flex d-none'>
+</Col>
+<Col >
+<div className="pe-text " >
+<h1 className=''>Understanding the Complexity of Deploying a VAT Solution</h1>
                           <p className="fs-5">A VAT compliance solution comes with its own complexity. Designing and maintaining a future-proof VAT compliance system and its impact on the entire process cannot be underemphasized. There is an added pressure to comply with constantly changing regulations.</p>
                           <p className="fs-5">Failure to comply would lead to severe penalties and reputational risk for banks. It is, therefore, imperative to efficiently integrate the VAT solution into the bank’s existing processes and technology to ensure VAT compliance.</p>
 </div>
@@ -119,29 +117,29 @@ backgroundImage: `url("/images/suntec-vat.jpg")`
         <h2 className='mb-5'>SunTec's GCC VAT Compliance Solution to Aid Banks</h2>
               
         <Row >
-          <Col >
-<div class="card border-0 wbg-gy" style={{background:'#f4f4f4'}}>
-  <img src="images/centralize.svg" class="card-img-top n_icon" alt="..."/>
-  <div class="card-body text-center">
-    <h5 class="card-title fw-bold">A single source of truth for VAT compliance and audit</h5>
+          <Col xm={12} sm={12}  lg={4} className='sm{4}'>
+<div claclassNamess="card border-0 wbg-gy" style={{background:'#f4f4f4'}}>
+  <img src="images/centralize.svg" className="card-img-top n_icon" alt="..."/>
+  <div className="card-body text-center">
+    <h5 className="card-title fw-bold">A single source of truth for VAT compliance and audit</h5>
     
   </div>
 </div>
 </Col>
-<Col>
-<div class="card border-0 wbg-gy" style={{background:'#f4f4f4'}}>
-  <img src="images/agile.svg" class="card-img-top n_icon" alt="..."/>
-  <div class="card-body text-center">
-    <h5 class="card-title fw-bold">Rapid go-live</h5>
+<Col sm={12} lg={4} className='sm{4}'>
+<div className="card border-0 wbg-gy" style={{background:'#f4f4f4'}}>
+  <img src="images/agile.svg" className="card-img-top n_icon" alt="..."/>
+  <div className="card-body text-center">
+    <h5 className="card-title fw-bold">Rapid go-live</h5>
     
   </div>
 </div>
 </Col>
-<Col>
-<div class="card border-0 wbg-gy" style={{background:'#f4f4f4'}}>
-  <img src="images/stability.svg" class="card-img-top n_icon" alt="..."/>
-  <div class="card-body text-center">
-    <h5 class="card-title fw-bold">Analytical capability</h5>
+<Col sm={12} lg={4} className='sm{4}'>
+<div className="card border-0 wbg-gy" style={{background:'#f4f4f4'}}>
+  <img src="images/stability.svg" className="card-img-top n_icon" alt="..."/>
+  <div className="card-body text-center">
+    <h5 className="card-title fw-bold">Analytical capability</h5>
   </div>
 </div>
 </Col>
@@ -149,17 +147,18 @@ backgroundImage: `url("/images/suntec-vat.jpg")`
 </Container>
 <CtaCall text='' url={PdfLink} btn="Download our Solution Overview to learn more" />
 </Container>
-<Container className="p-3 mb-4" fluid style={{ 
+<Container className="p-3 mb-4 w-100" fluid style={{ 
 backgroundImage: `url("/images/vat-bottom-banner.jpg")` 
+
 }}>
 <Row>
-<Col>
+<Col className=''>
 </Col> 
 <Col>
 <div className="px-text" >
 <h1>VAT Deployment 101 for GCC Banks and Financial Services Firms</h1>
 <p className="fs-5">Given the intricacies of deploying a VAT solution, here is a quick guide to help you decide whether to buy a VAT solution or build one from ground up. Understand the difference between a centralized and decentralized implementation approach and discover the key aspects when embarking on a VAT implementation project to make your VAT adoption a success.</p>
-<Link href="/ebooks/vat-ebook/" className='b-btn'>Download the eBook now</Link>
+<Link href="/ebooks/vat-ebook/" className='b-btn w-25'>Download the eBook now</Link>
 </div>
 </Col> 
 </Row>           

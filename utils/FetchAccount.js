@@ -34,9 +34,9 @@ function Insights({tags}) {
 
   return (
 <Container className="mb-5 mt-5 text-center" id="insights">
-{heading && <h2>Our Latest Insights</h2>}
+{heading && <h2>Related Resources</h2>}
 <Container className="mt-5">
-  <Row className="center">
+  <Row className="center" >
   {
 allInsights.map((post) => {
   //console.log(post);
@@ -51,16 +51,16 @@ allInsights.map((post) => {
   }
 
 return (
-  <Col key={post['id']} sm={6} lg={6} xs={6} md={6}>
+  <Col key={post['id']} sm={12} lg={6} xs={6} md={6} id='demo'>
 <div class="card mb-3 border-0" >
-  <div class="row g-0">
-    <div class="col-md-4 d-flex justify-content-center align-items-center">
-                    <Image src={post['featured_img_src']} class="img-fluid " alt="..." width={220} height={220} />
+  <div class="row g-0" >
+    <div class="col-md-4 d-flex justify-content-center align-items-center" >
+                    <Image src={post['featured_img_src']} class="img-fluid " alt="..." width={267} height={260} />
     </div>
-    <div class="col-md-8 text-start">
-      <div class="card-body">
-        <h5 class="card-title text-start" dangerouslySetInnerHTML={{__html:post['title']}}/>
-                        <p class="card-text text-start" dangerouslySetInnerHTML={{ __html: post['excerpt'] }} />
+    <div class="col-md-8 text-start ">
+      <div class="card-body ms-md-5 related">
+        <h5 class="card-title " dangerouslySetInnerHTML={{__html:post['title']}}/>
+                        <p class="card-text " dangerouslySetInnerHTML={{ __html: post['excerpt'] }} />
                         <Link href={Links} className="pr-text text-decoration-none expand-btn text-white px-5 rounded-3">Read More</Link>
                     </div>
                         

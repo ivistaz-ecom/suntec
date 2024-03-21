@@ -206,10 +206,7 @@ function InsightsBtn({ tags  }) {
         fetchInsights();
     }, []);
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Container, {
-        className: "wbg-sun text-center d-flex flex-column justify-content-center",
-        style: {
-            height: 10 + "em"
-        },
+        className: "wbg-sun text-center d-flex flex-column justify-content-center p-4",
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Row, {
             className: "center",
             children: allInsights.map((post, index)=>{

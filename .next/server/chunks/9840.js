@@ -132,7 +132,7 @@ function Insights({ tags  }) {
         id: "insights",
         children: [
             heading && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                children: "Our Latest Insights"
+                children: "Related Resources"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Container, {
                 className: "mt-5",
@@ -149,10 +149,11 @@ function Insights({ tags  }) {
                             Links = Type + "/" + Pslug;
                         }
                         return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Col, {
-                            sm: 6,
+                            sm: 12,
                             lg: 6,
                             xs: 6,
                             md: 6,
+                            id: "demo",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 class: "card mb-3 border-0",
                                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -164,23 +165,23 @@ function Insights({ tags  }) {
                                                 src: post["featured_img_src"],
                                                 class: "img-fluid ",
                                                 alt: "...",
-                                                width: 220,
-                                                height: 220
+                                                width: 267,
+                                                height: 260
                                             })
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                            class: "col-md-8 text-start",
+                                            class: "col-md-8 text-start ",
                                             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                class: "card-body",
+                                                class: "card-body ms-md-5 related",
                                                 children: [
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {
-                                                        class: "card-title text-start",
+                                                        class: "card-title ",
                                                         dangerouslySetInnerHTML: {
                                                             __html: post["title"]
                                                         }
                                                     }),
                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                        class: "card-text text-start",
+                                                        class: "card-text ",
                                                         dangerouslySetInnerHTML: {
                                                             __html: post["excerpt"]
                                                         }
