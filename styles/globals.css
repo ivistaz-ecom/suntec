@@ -82,10 +82,17 @@ body {
 
 .line-20 {
   background-color: #ff6309;
-  height: 6px;
+  height: 3px;
   border: 0px;
   opacity: 1;
-  width: 20% !important;
+  width: 15% !important;
+}
+.line-21 {
+  background-color: #666666;
+  height: 3px;
+  border: 0px;
+  opacity: 1;
+  width: 15% !important;
 }
 .border {
   border: 1px solid red;
@@ -824,6 +831,7 @@ a.expand-btn:hover {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+
 }
 
 .expand-btn:after {
@@ -902,7 +910,6 @@ h1.fs-1 {
 .b-banner {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1238,20 +1245,21 @@ svg.icon-back circle {
 }
 
 .ribbon-1:before {
-  height: 0;
+  height: 152px;
   width: 0;
   border-bottom: 3.5em solid #008a87;
   border-right: 3.5em solid transparent;
-  right: -8px;
-  bottom: 24px;
+  right: -55px;
+  bottom: -56px;
 }
 
 .ribbon-2:before {
-  height: 0;
+  height: 152px;
   width: 0;
-  border-bottom: 3.5em solid #008a87;
+  border-bottom: 2.5em solid #008a87;
   border-right: 3.5em solid transparent;
-  right: -53px;
+  right: -56px;
+  bottom: -152px;
 }
 
 .callout {
@@ -1456,6 +1464,7 @@ a.float-right {
 }
 
 @media only screen and (max-width: 600px) {
+  
   .video-post {
     height: auto;
   }
@@ -1464,9 +1473,19 @@ a.float-right {
     width: 0;
     border-bottom: 3.5em solid #008a87;
     border-right: 3.5em solid transparent;
-    right: -8px;
-    bottom: 10px;
+    right: -52px;
+    bottom: -80px;
   }
+  .ribbon-2:before {
+    height: 0;
+    width: 0;
+    border-bottom: 2.7em solid #008a87;
+    border-right: 3.5em solid transparent;
+    right: -53px;
+    bottom: -164px; 
+    margin-top: 22px;
+  }
+  
   .eventsNav {
     width: 22em;
     padding-bottom: 1em;
@@ -1500,6 +1519,8 @@ a.float-right {
   }
   .w-text {
     width: 100%;
+    margin-top: 30px;
+    margin-left: 51px;
   }
   .news-in {
     width: 100% !important;
