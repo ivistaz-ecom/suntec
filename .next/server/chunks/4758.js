@@ -205,35 +205,38 @@ function InsightsBtn({ tags  }) {
     (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
         fetchInsights();
     }, []);
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Container, {
-        className: "wbg-sun text-center d-flex flex-column justify-content-center",
-        style: {
-            height: 10 + "em"
-        },
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Row, {
-            className: "center",
-            children: allInsights.map((post, index)=>{
-                //console.log(post);
-                const Type = post["type"];
-                const Pslug = post["slug"];
-                let Links;
-                if (Type == "page") {
-                    Links = Pslug;
-                } else {
-                    Links = Type + "/" + Pslug;
-                }
-                return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Col, {
-                        sm: 3,
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Button, {
-                            className: "w-btn capital mb-2",
-                            href: "#insights",
-                            children: Type
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Container, {
+        className: "wbg-sun text-center d-flex flex-column justify-content-center p-5",
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                className: "text-white",
+                children: "Discover related resources curated just for you"
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Row, {
+                className: "center",
+                children: allInsights.map((post, index)=>{
+                    //console.log(post);
+                    const Type = post["type"];
+                    const Pslug = post["slug"];
+                    let Links;
+                    if (Type == "page") {
+                        Links = Pslug;
+                    } else {
+                        Links = Type + "/" + Pslug;
+                    }
+                    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Col, {
+                            sm: 3,
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Button, {
+                                className: "w-btn capital mb-2",
+                                href: "#insights",
+                                children: Type
+                            })
                         })
-                    })
-                });
+                    });
+                })
             })
-        })
+        ]
     });
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (InsightsBtn);

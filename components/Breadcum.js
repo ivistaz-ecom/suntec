@@ -7,7 +7,7 @@ function Breadcum({PostTitle}) {
   return (
 <Container fluid className="breadcum">
 <Breadcrumb >
-      <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+      <Breadcrumb.Item href="/">Homepage</Breadcrumb.Item>
       <Breadcrumb.Item href={router.asPath} active>
       {PostTitle}
       </Breadcrumb.Item>

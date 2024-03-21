@@ -28,9 +28,9 @@ function LinksExample() {
 <hr className="border"/>
 <ul className="text-white list-inline">
 <li><Link href="/financial-services">Financial Services</Link></li>
+<li><Link href="/industries-insurance">Insurance</Link></li>
 <li><Link href="/telecom">Telecom</Link></li>
 <li><Link href="/travel">Travel</Link></li>
-<li><Link href="/industries-insurance">Insurance</Link></li>
 </ul>
 </Col>
 <Col sm={6} lg={3} md={6} xs={6}>

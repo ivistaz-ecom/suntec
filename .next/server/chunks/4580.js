@@ -126,6 +126,12 @@ function LinksExample() {
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
+                                                href: "/industries-insurance",
+                                                children: "Insurance"
+                                            })
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                 href: "/telecom",
                                                 children: "Telecom"
                                             })
@@ -134,12 +140,6 @@ function LinksExample() {
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
                                                 href: "/travel",
                                                 children: "Travel"
-                                            })
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                                href: "/industries-insurance",
-                                                children: "Insurance"
                                             })
                                         })
                                     ]
@@ -884,14 +884,14 @@ function NavScrollExample() {
                                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                                                         className: "mb-4",
                                                                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_7___default()), {
-                                                                                            href: "/travel",
+                                                                                            href: "/telecom",
                                                                                             className: "text-decoration-none text-black",
                                                                                             children: [
                                                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                                                                    children: "Travel"
+                                                                                                    children: "Telecom"
                                                                                                 }),
                                                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("small", {
-                                                                                                    children: "Take your business to the next level and create multiple monetization opportunities on a single platform."
+                                                                                                    children: "Enhance your customer experience management capabilities with the right level of process automation, analytics and product innovation."
                                                                                                 })
                                                                                             ]
                                                                                         })
@@ -907,22 +907,6 @@ function NavScrollExample() {
                                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                                                                         className: "mb-4",
                                                                                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_7___default()), {
-                                                                                            href: "/telecom",
-                                                                                            className: "text-decoration-none text-black",
-                                                                                            children: [
-                                                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
-                                                                                                    children: "Telecom"
-                                                                                                }),
-                                                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("small", {
-                                                                                                    className: "m_text",
-                                                                                                    children: "Enhance your customer experience management capabilities with the right level of process automation, analytics and product innovation."
-                                                                                                })
-                                                                                            ]
-                                                                                        })
-                                                                                    }),
-                                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                                                        className: "mb-4",
-                                                                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_7___default()), {
                                                                                             href: "/industries-insurance",
                                                                                             className: "text-decoration-none text-black",
                                                                                             children: [
@@ -930,7 +914,23 @@ function NavScrollExample() {
                                                                                                     children: "Insurance"
                                                                                                 }),
                                                                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("small", {
+                                                                                                    className: "m_text",
                                                                                                     children: "Identify and mitigate revenue leakages, rationalize products, connect with external partner ecosystems and present contextual offers."
+                                                                                                })
+                                                                                            ]
+                                                                                        })
+                                                                                    }),
+                                                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                                                                        className: "mb-4",
+                                                                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_link__WEBPACK_IMPORTED_MODULE_7___default()), {
+                                                                                            href: "/travel",
+                                                                                            className: "text-decoration-none text-black",
+                                                                                            children: [
+                                                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                                                                                    children: "Travel"
+                                                                                                }),
+                                                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("small", {
+                                                                                                    children: "Teake your business to the next level and create multiple monetization opportunities on a single platform."
                                                                                                 })
                                                                                             ]
                                                                                         })

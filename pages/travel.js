@@ -15,7 +15,7 @@ function LinksExample() {
 
   const router = useRouter()  
   const PdfLink = '/pdf/Relationship-based-Pricing-Management.pdf';
-  const PostTitle = "Improving Revenue Management and Share of Wallet";
+  const PostTitle = "Pricing, Product & Billing Solutions for Travel";
   const PostDescription = "Capitalize on the benefits of SunTec Xelerate’s next-generation revenue management system. Build on top of your existing infrastructure, take your business to the next level and create multiple monetization opportunities on a single platform.";
   const PostImage = "/images/travel_banner.jpeg"; 
 
@@ -62,8 +62,8 @@ function LinksExample() {
       backgroundImage: `url(${PostImage})` 
     }}>
 <Row>
-<Col>
-<div className="b-text">
+<Col lg={5} xs={12} sm={12} md={6} className="bg-purple ms-lg-5 p-4 text-white">
+<div>
 <h1>Improving Revenue Management and Share of Wallet</h1>
 <p>Capitalize on the benefits of SunTec Xelerate’s next-generation revenue management system. Build on top of your existing infrastructure, take your business to the next level and create multiple monetization opportunities on a single platform.</p>
 </div>
@@ -77,19 +77,21 @@ function LinksExample() {
 <p className="fs-5">The sector continues to witness disruption across, forcing many established players to look at technology as a differentiator to connect better with the customer and stay ahead of its competitors. But it is not an easy decision, as most players that have been in the industry for a while have accumulated multiple legacy systems that are not integrated. More importantly, these systems do not have the agility and/or flexibility required for the next level of customer centric digital transformation that the Travel Management Companies (TMCs) need so badly today. A complete overhaul of the revenue management system is the need of the hour for the TMCs.</p>
 
 
-<h2 className="fs-2 mt-5 mb-5">The Challenges</h2>
+<h2 className="fs-2 mt-5 mb-3">The Challenges</h2>
+<hr className='line-21'/>
 <Row>  
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/icon_21.png"/>
+<Card className="d-flex flex-lg-row justify-content-center border-0 bg-transparent align-content-center align-items-center c-height">
+      <Card.Img className="card-icon-left p-2 p-lg-3" src="images/icon__moun.png"/>
       <Card.Body>
         <Card.Title>Declining Margins</Card.Title>
       </Card.Body>
     </Card>
 </Col>
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/icon_22.png"/>
+<Card className="d-flex flex-lg-row justify-content-center border-0 bg-transparent align-content-center align-items-center c-height">
+      <Card.Img className="card-icon-left p-2 p-lg-3" src="images/icon_22.png"/>
+      
       <Card.Body>
         <Card.Title>Slow Time to Market</Card.Title>
       </Card.Body>
@@ -98,16 +100,16 @@ function LinksExample() {
 </Row>
 <Row>  
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/icon_23.png"/>
+<Card className="d-flex flex-lg-row justify-content-center border-0 bg-transparent align-content-center align-items-center c-height">
+      <Card.Img className="card-icon-left p-2 p-lg-3" src="images/filter.png"/>
       <Card.Body>
         <Card.Title>Increased Operational Overheads</Card.Title>
       </Card.Body>
     </Card>
 </Col>
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/icon_24.png"/>
+<Card className="d-flex flex-lg-row justify-content-center border-0 bg-transparent align-content-center align-items-center c-height">
+      <Card.Img className="card-icon-left p-2 p-lg-3" src="images/icon_24.png"/>
       <Card.Body>
         <Card.Title>Manual Processes</Card.Title>
       </Card.Body>
@@ -116,16 +118,16 @@ function LinksExample() {
 </Row>
 <Row>  
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img  className="card-icon-left" src="images/icon_25.png"/>
+<Card className="d-flex flex-lg-row justify-content-center align-content-center align-items-center c-height">
+      <Card.Img  className="card-icon-left p-2 p-lg-3" src="images/icon_25.png"/>
       <Card.Body>
         <Card.Title>Missing Travel Ecosystem</Card.Title>
       </Card.Body>
     </Card>
 </Col>
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/icon_26.png"/>
+<Card className="d-flex flex-lg-row justify-content-cente border-0 bg-transparent align-content-center align-items-center c-height">
+      <Card.Img className="card-icon-left p-2 p-lg-3" src="images/icon_26.png"/>
       <Card.Body>
         <Card.Title>Discrete Systems Across Different Countries</Card.Title>
       </Card.Body>
@@ -135,14 +137,22 @@ function LinksExample() {
 
 
 </Container>
-<Container className="gra_color" fluid style={{height:35 + 'em'}}>
-<Row>
-  <Col><img src="/images/xelerate.png" height="300"/></Col>
-  <Col>
-  <h3 className="text-white fs-2">How Can SunTec Help Unlock Value?</h3>
-  <ul className="mt-5">
-   <li className="text-white fs-5"><strong>Build new capabilities into your existing infrastructure:</strong> Transform, optimize and grow your Travel Management Company with next-generation revenue management capability .</li> 
-   <li className="text-white fs-5"><strong>Get a unified platform:</strong> Monetize all your service offerings in a hassle-free manner through a single platform.</li>
+<Container lg={5} md={6} sm={12} className="gra_color d-flex flex-lg-row border-0 bg-transparent flex-column justify-content-center align-items-center align-content-center p-5" fluid style={{height:45 + 'em'}}>
+<Row className="d-flex flex-lg-row flex-column">
+  <Col className="mt-5 d-flex flex-column justify-content-center align-items-center">
+  <Col className="d-flex flex-column justify-content-center">
+  <Image src="/images/xelerate.png" 
+  className='w-100 h-auto mb-1'
+  height="300"
+  width="400"
+    />
+  </Col>
+  </Col>
+  <Col lg={5} xs={12} sm={12} md={6} className="d-flex flex-column justify-content-center">
+  <h3 className="text-white mt-5 fs-3">How Can SunTec Help Unlock Value?</h3>
+  <ul className="mt-5 ">
+   <li className="text-white fs-6"><strong>Build new capabilities into your existing infrastructure:</strong> Transform, optimize and grow your Travel Management Company with next-generation revenue management capability .</li> 
+   <li className="text-white fs-6"><strong>Get a unified platform:</strong> Monetize all your service offerings in a hassle-free manner through a single platform.</li>
   </ul>
   </Col>
 </Row>

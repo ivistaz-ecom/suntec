@@ -17,7 +17,7 @@ function LinksExample() {
 
   const router = useRouter()  
   const PdfLink = '/pdf/Relationship-based-Pricing-Management.pdf';
-  const PostTitle = "Redefining Value Chain Management";
+  const PostTitle = "Insurance";
   const PostDescription = "A low risk approach to identify and mitigate revenue leakages, rationalize products, connect with external partner ecosystems and present highly contextual offers.";
   const PostImage = "/images/insurance_banner.jpeg"; 
 
@@ -63,13 +63,13 @@ function LinksExample() {
       backgroundImage: `url(${PostImage})` 
     }}>
 <Row>
-<Col>
-<div className="b-text">
-<h1>Redefining Value Chain Management</h1>
+<Col lg={5} xs={12} sm={12} md={6} className="bg-purple text-white ms-lg-4 p-4">
+<div>
+<h1>Insurance</h1>
 <p>A low risk approach to identify and mitigate revenue leakages, rationalize products, connect with external partner ecosystems and present highly contextual offers.</p>
 </div>
 </Col> 
-<Col></Col> 
+
 </Row>
 </Container>
 <Container>
@@ -78,11 +78,12 @@ function LinksExample() {
 
 
 
-<h2 className="fs-2 mt-5 mb-5">The Challenges</h2>
+<h2 className="fs-2 mt-5 mb-3">The Challenges</h2>
+<hr className="line-21"/>
 <Row>  
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-      <Card.Img className="card-icon-left" src="images/icon_2_1.png"/>
+<Card className="d-flex flex-lg-row bg-transparent border-0 flex-column justify-content-center align-items-center align-content-center">
+      <Card.Img className="card-icon-left p-2 p-lg-3"  src="images/icon_2_1.png"/>
       <Card.Body>
         <Card.Title>Legacy System Transformation</Card.Title>
         <Card.Text>
@@ -92,8 +93,8 @@ function LinksExample() {
     </Card>
 </Col>
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-<Card.Img className="card-icon-left" src="images/icon_2_2.png"/>
+<Card className="d-flex flex-lg-row bg-transparent border-0 flex-column justify-content-center align-items-center align-content-center">
+<Card.Img className="card-icon-left p-2 p-lg-3" src="images/icon_2_2.png"/>
       <Card.Body>
         <Card.Title>Expanding Competitive Landscape</Card.Title>
         <Card.Text>
@@ -105,8 +106,8 @@ function LinksExample() {
 </Row>
 <Row>  
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-<Card.Img className="card-icon-left" src="images/icon_2_3.png"/>
+<Card className="d-flex flex-lg-row bg-transparent border-0 flex-column justify-content-center align-items-center align-content-center">
+<Card.Img className="card-icon-left p-2 p-lg-3" src="images/icon_2_3.png"/>
       <Card.Body>
         <Card.Title>Regulatory Compliance</Card.Title>
         <Card.Text>
@@ -116,8 +117,8 @@ function LinksExample() {
     </Card>
 </Col>
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-<Card.Img className="card-icon-left" src="images/icon_2_4.png"/>
+<Card className="d-flex flex-lg-row bg-transparent border-0 flex-column justify-content-center align-items-center align-content-center">
+<Card.Img className="card-icon-left p-2 p-lg-3" src="images/icon_2_4.png"/>
       <Card.Body>
         <Card.Title>Digital Savvy Customer</Card.Title>
         <Card.Text>
@@ -129,8 +130,8 @@ function LinksExample() {
 </Row>
 <Row>  
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-<Card.Img className="card-icon-left" src="images/icon_2_5.png"/>
+<Card className="d-flex flex-lg-row bg-transparent border-0 flex-column justify-content-center align-items-center align-content-center">
+<Card.Img className="card-icon-left p-2 p-lg-3" src="images/icon_2_5.png"/>
       <Card.Body>
         <Card.Title>Operational Efficiency</Card.Title>
         <Card.Text>
@@ -140,8 +141,8 @@ function LinksExample() {
     </Card>
 </Col>
 <Col sm={6}>
-<Card className="d-flex flex-row c-height">
-<Card.Img className="card-icon-left" src="images/icon_2_6.png"/>
+<Card className="d-flex flex-lg-row bg-transparent border-0 flex-column justify-content-center align-items-center align-content-center">
+<Card.Img className="card-icon-left p-2 p-lg-3" src="images/icon_2_6.png"/>
       <Card.Body>
         <Card.Title>Multi-party Approval Process</Card.Title>
         <Card.Text>
@@ -154,14 +155,22 @@ function LinksExample() {
 
 
 </Container>
-<Container className="gra_color" fluid style={{height:35 + 'em'}}>
-<Row>
-  <Col><img src="/images/xelerate.png" height="300"/></Col>
-  <Col>
-  <h3 className="text-white fs-2">How Can SunTec Help Unlock Value?</h3>
+<Container className="gra_color d-flex flex-lg-row flex-column justify-content-center align-items-center align-content-center p-5" fluid style={{height:42 + 'em'}}>
+<Row className="d-flex flex-lg-row flex-column">
+  <Col className="mt-5 d-flex flex-column justify-content-center align-items-center">
+  <Col className=" d-flex flex-column justify-content-center">
+  <Image src="/images/xelerate.png" 
+  height="300"
+  width="400"
+  className='w-100 h-auto  mt-5'
+    />
+  </Col>
+  </Col>
+  <Col className="d-flex flex-column justify-content-center">
+  <h3 className="text-white fs-2 mt-5">How Can SunTec Help Unlock Value?</h3>
   <ul className="mt-5">
-   <li className="text-white fs-5"><strong>Build new capabilities into your existing infrastructure:</strong> Transform, optimize and grow your Travel Management Company with next-generation revenue management capability .</li> 
-   <li className="text-white fs-5"><strong>Get a unified platform:</strong> Monetize all your service offerings in a hassle-free manner through a single platform.</li>
+   <li className="text-white fs-6"><strong>Build new capabilities into your existing infrastructure:</strong> Transform, optimize and grow your Travel Management Company with next-generation revenue management capability .</li> 
+   <li className="text-white fs-6" ><strong>Get a unified platform:</strong> Monetize all your service offerings in a hassle-free manner through a single platform.</li>
   </ul>
   </Col>
 </Row>
@@ -207,8 +216,8 @@ function LinksExample() {
 </Row>
 
 <Row>
-<Col>
-<Card className="c_shadow" style={{height:400 +'px'}}>
+<Col lg={4}>
+<Card className="c_shadow"  style={{height:400 +'px'}}>
       <Card.Img className="card-icon-left" src="/images/icon_4.png" />
       <Card.Body className="c_body">
         <Card.Title>Complex Deal Management</Card.Title>
@@ -218,12 +227,7 @@ function LinksExample() {
       </Card.Body>
     </Card>
 </Col>
-<Col>
-
-</Col>
-<Col>
-
-</Col>
+<Col className="d-flex d-lg-block d-none"></Col>
 </Row>
 
 </Container>

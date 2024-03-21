@@ -119,9 +119,10 @@ function NavScrollExample() {
                                  <small>Get the agility and scalability to digitally transform your offerings and reap benefits of product innovation and real-time analytics.</small></Link>
                               </li>
                               <li className="mb-4">
-                              <Link href="/travel" className="text-decoration-none text-black">
-                                 <h6>Travel</h6>
-                                 <small>Take your business to the next level and create multiple monetization opportunities on a single platform.</small></Link>
+                              <Link href="/telecom" className="text-decoration-none text-black">
+                                 <h6>Telecom</h6>
+                                 <small>Enhance your customer experience management capabilities with the right level of process automation, analytics and product innovation.
+                                    </small></Link>
                               </li>
                            </ul>
                         </div>
@@ -129,15 +130,16 @@ function NavScrollExample() {
                         <div className="col-sm-6">
                            <ul className="nav-ul">
                               <li className="mb-4">
-                                 <Link href="/telecom" className="text-decoration-none text-black">
-                                    <h6>Telecom</h6>
-                                    <small className="m_text">Enhance your customer experience management capabilities with the right level of process automation, analytics and product innovation.</small>
+                                 <Link href="/industries-insurance" className="text-decoration-none text-black">
+                                    <h6>Insurance</h6>
+                                    <small className="m_text">Identify and mitigate revenue leakages, rationalize products, connect with external partner ecosystems and present contextual offers.
+                                       </small>
                                  </Link>
                               </li>
                               <li className="mb-4">
-                                 <Link href="/industries-insurance" className="text-decoration-none text-black">
-                                    <h6>Insurance</h6>
-                                    <small>Identify and mitigate revenue leakages, rationalize products, connect with external partner ecosystems and present contextual offers.</small>
+                                 <Link href="/travel" className="text-decoration-none text-black">
+                                    <h6>Travel</h6>
+                                    <small>Teake your business to the next level and create multiple monetization opportunities on a single platform.</small>
                                  </Link>
                               </li>
                            </ul>

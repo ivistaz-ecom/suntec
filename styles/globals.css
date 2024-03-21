@@ -32,6 +32,14 @@ body {
   background: #95519e !important;
 }
 
+.bg-purple {
+  background: #96509f;
+}
+/* hover for financial services in industries */
+.explore-text:hover{
+  color: lightgray;
+}
+
 .accordion-button::after {
   background-color: white;
   border-radius: 14px;
@@ -82,10 +90,18 @@ body {
 
 .line-20 {
   background-color: #ff6309;
-  height: 6px;
+  /* background-color: #000; */
+  height: 3px;
   border: 0px;
   opacity: 1;
   width: 20% !important;
+}
+.line-21{
+  background-color: #000;
+  height: 1px;
+  border: 0px;
+  opacity: 1;
+  width: 5% !important;
 }
 .border {
   border: 1px solid red;
@@ -438,7 +454,7 @@ li h6:hover {
   color: #96509f;
   background-color: transparent;
   background-image: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 2px 2px 2px 2px;
   text-decoration: none;
   height: auto;
   width: 100%;
@@ -942,7 +958,8 @@ h1.fs-1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; 
+  
 }
 
 .card-icon-left {
@@ -1112,6 +1129,17 @@ h1.fs-1 {
   border-top: 4px solid #fff;
   border-bottom: 4px solid #fff;
   border-left: 4px solid #fff;
+}
+.square-dark {
+  color: #000;
+  height: auto;
+  text-align: start;
+  margin-left: 40px;
+  padding-left: 243px;
+  width: 250px;
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+  border-left: 4px solid #000;
 }
 
 .square-dark {
@@ -1504,6 +1532,36 @@ a.float-right {
   .news-in {
     width: 100% !important;
   }
+  .b-banner {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid #529b9a;
+  }
+  .square-text-dark{
+    max-width: 300px;
+    
+    margin-right: 40px
+
+  }
+
+  /* bhavan css */
+  /* Industries */
+
+  /* Financial Services page */
+
+  .c_shadow.card {
+    height: auto !important;
+  }
+  /* bhavan css */
+  /* Industries */
+  /* insurance service page */
+  element.style{
+    height: auto !important;
+  }
 }
 
 .mb-n1 {
@@ -1520,3 +1578,14 @@ a.float-right {
   background: #def6f5 !important;
   border-radius: 50px 0px !important;
 }
+.custom-button {
+  background-color: #007bff; /* Set your desired background color */
+  color: #ffffff; /* Set your desired text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: none;
+}
+
+        

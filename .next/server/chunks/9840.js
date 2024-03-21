@@ -30,7 +30,7 @@ function Breadcum({ PostTitle  }) {
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Breadcrumb.Item, {
                     href: "/",
-                    children: "Home"
+                    children: "Homepage"
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__.Breadcrumb.Item, {
                     href: router.asPath,
