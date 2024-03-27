@@ -1,14 +1,14 @@
 {
   "../components/ClientsLogo.js -> react-owl-carousel": {
-    "id": 2568,
+    "id": "../components/ClientsLogo.js -> react-owl-carousel",
     "files": [
-      "static/chunks/2568.377484dac6179f4e.js"
+      "static/chunks/node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
     ]
   },
   "../components/Testimonails.js -> react-owl-carousel": {
-    "id": 2568,
+    "id": "../components/Testimonails.js -> react-owl-carousel",
     "files": [
-      "static/chunks/2568.377484dac6179f4e.js"
+      "static/chunks/node_modules_react-owl-carousel_umd_OwlCarousel_js.js"
     ]
   }
 }

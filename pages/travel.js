@@ -15,7 +15,7 @@ function LinksExample() {
 
   const router = useRouter()  
   const PdfLink = '/pdf/Relationship-based-Pricing-Management.pdf';
-  const PostTitle = "Improving Revenue Management and Share of Wallet";
+  const PostTitle = "Pricing, Product & Billing Solutions for Travel";
   const PostDescription = "Capitalize on the benefits of SunTec Xelerate’s next-generation revenue management system. Build on top of your existing infrastructure, take your business to the next level and create multiple monetization opportunities on a single platform.";
   const PostImage = "/images/travel_banner.jpeg"; 
 
@@ -62,7 +62,7 @@ function LinksExample() {
       backgroundImage: `url(${PostImage})` 
     }}>
 <Row>
-<Col>
+<Col lg={5} xs={12} sm={12} md={6}>
 <div className="b-text">
 <h1>Improving Revenue Management and Share of Wallet</h1>
 <p>Capitalize on the benefits of SunTec Xelerate’s next-generation revenue management system. Build on top of your existing infrastructure, take your business to the next level and create multiple monetization opportunities on a single platform.</p>
@@ -135,10 +135,17 @@ function LinksExample() {
 
 
 </Container>
-<Container className="gra_color" fluid style={{height:35 + 'em'}}>
-<Row>
-  <Col><img src="/images/xelerate.png" height="300"/></Col>
-  <Col>
+<Container lg={5} md={6} sm={12} className="gra_color d-flex flex-lg-row flex-column justify-content-center align-items-center align-content-center p-5" fluid style={{height:35 + 'em'}}>
+<Row className="d-flex flex-lg-row flex-column">
+  <Col className="mt-5 p-lg-5 d-flex flex-column justify-content-center align-items-center">
+  <Col className="p-lg-5 d-flex flex-column justify-content-center">
+  <Image src="/images/xelerate.png" 
+  height="700px"
+  className='img-fluid w-100'
+    />
+  </Col>
+  </Col>
+  <Col lg={5} xs={12} sm={12} md={6}>
   <h3 className="text-white fs-2">How Can SunTec Help Unlock Value?</h3>
   <ul className="mt-5">
    <li className="text-white fs-5"><strong>Build new capabilities into your existing infrastructure:</strong> Transform, optimize and grow your Travel Management Company with next-generation revenue management capability .</li> 

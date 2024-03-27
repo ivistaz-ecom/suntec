@@ -83,7 +83,7 @@ function Platforms() {
           <hr />
           <Container className='mt-5'>
               <h2>Here’s How Our Products & Solutions Can Help You</h2>
-              <Row className='mt-5'>
+              <Row className='mt-5 d-flex flex-lg-row flex-column gap-lg-0 gap-4'>
                   <Col>
                   <Card className="rounded-0 shadow" style={{ height: 55 + 'em', padding: 21 + 'px' }}>
             <Card.Body className="c_body">

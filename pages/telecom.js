@@ -14,7 +14,7 @@ function LinksExample() {
 
   const router = useRouter()  
   const PdfLink = '/pdf/Relationship-based-Pricing-Management.pdf';
-  const PostTitle = "Driving an Effective Transformation Agenda";
+  const PostTitle = "Telecom";
   const PostDescription = "Embrace a data driven strategy and add new streams of revenue using SunTec Xelerate’s powerful intelligence layer. Enhance your customer experience management capabilities with the right level of process automation, analytics and product innovation.";
   const PostImage = "/images/telecom_banner.jpeg"; 
 
@@ -63,9 +63,9 @@ function LinksExample() {
 
 
 <Row>
-<Col>
+<Col lg={5} md={6} sm={12}>
 <div className="b-text">
-<h1>Driving an Effective Transformation Agenda</h1>
+<h1>Telecom</h1>
 <p>Embrace a data driven strategy and add new streams of revenue using SunTec Xelerate’s powerful intelligence layer. Enhance your customer experience management capabilities with the right level of process automation, analytics and product innovation.</p>
 </div>
 </Col> 
@@ -153,9 +153,16 @@ function LinksExample() {
 </Row>
 
 </Container>
-<Container className="gra_color" fluid style={{height:35 + 'em'}}>
-<Row>
-  <Col><img src="/images/xelerate.png" height="300"/></Col>
+<Container className="gra_color d-flex flex-lg-row flex-column justify-content-center align-items-center align-content-center p-5" fluid style={{height:35 + 'em'}}>
+<Row className="d-flex flex-lg-row flex-column">
+  <Col className="mt-5 p-lg-5 d-flex flex-column justify-content-center align-items-center">
+  <Col className="p-lg-5 d-flex flex-column justify-content-center">
+  <Image src="/images/xelerate.png" 
+  height="200px"
+  className='img-fluid'
+    />
+  </Col>
+  </Col>
   <Col>
   <h3 className="text-white fs-2">How SunTec Simplifies Your Transformation Journey?</h3>
   <ul className="mt-5">
@@ -263,9 +270,7 @@ function LinksExample() {
       </Card.Body>
     </Card>
 </Col>
-<Col>
 
-</Col>
 </Row>
 </Container>
       <CtaCall text='130+ leading organizations across 45+ countries use SunTec’s Xelerate to deliver value.' btn='See SunTec Xelerate in action' url='/request-a-demo/' />
