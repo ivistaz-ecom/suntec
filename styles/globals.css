@@ -16,7 +16,7 @@ body {
   text-transform: capitalize;
 }
 .wbg-suntec {
-  background-color: #493581;
+  background-color: #0d0c11;
 }
 
 .wbg-purple {
@@ -48,6 +48,9 @@ body {
 }
 .wbg-green {
   background-color: #DFFCFE !important;
+}
+.wbgs-green{
+  background-color: #28B2AF !important;
 }
 .wbg-greent {
   background-image: linear-gradient(113deg, #016163 78%, #01b1af 74%);
@@ -1169,7 +1172,9 @@ a {
   height: auto;
    width: 540px;
  position: relative;
- margin-left: 500px;
+ margin-left: 530px;
+ text-align: left;
+ margin-top: 120px;
 }
 .square-text-light {
   color: #fff;
@@ -1177,29 +1182,27 @@ a {
   text-align: start;
   padding: 0px;
   width: 550px;
-
-
   margin-left: -30px;
   left: -182px;
   position: relative;
 }
 
 .square .lin {
-  height: 67px;
-  width: 4px;
+  height: 55px;
+  width: 3px;
   flex: 1;
   background-color: #fff;
 }
 
 .square-dark .lin-dark {
-  height: 67px;
-  width: 4px;
+  height: 55px;
+  width: 3px;
   flex: 1;
   background-color: #000;
 }
 .square-light .lin-light {
-  height: 67px;
-  width: 4px;
+  height:55px;
+  width: 3px;
   flex: 1;
   background-color: #fff;
 }
@@ -1535,7 +1538,8 @@ a.float-right {
   .square-text-dark{
     width: 280px;
     left:-180px;
-    margin-left: -40px;
+    margin-top: -30px;
+    margin-left: -30px;
   }
   .square-texts-dark {
     color: #000;
@@ -1557,10 +1561,7 @@ a.float-right {
     position: relative;
   }
 
-  /* .images01{
-    width: 100%;
-  } */
-  
+
   .pe-text {
     width: 100%;
   }

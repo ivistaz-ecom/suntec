@@ -72,7 +72,7 @@ function productRationalization() {
       }}>
         <Row>
           <Col className='d-flex align-content-center'>
-            <div className="square-dark">
+            <div className="square-dark mt-5">
               <div class="lin-dark"></div>
               <div className="square-text-dark ">
                 <h1 className="fs-1">{PostTitle}</h1>
@@ -122,7 +122,7 @@ function productRationalization() {
 
           <h2 className='mb-5 pt-4'>With SunTec BG-Invoicing Solution, Benefit from:</h2>
           <Row >
-            <Col >
+            <Col sm={12} lg={4}>
               <div class="card border-0 wbg-gy" style={{ background: '#f4f4f4' }}>
                 <img src="images/rapid.svg" class="card-img-top n_icon" alt="..." />
                 <div class="card-body text-center">
@@ -131,7 +131,7 @@ function productRationalization() {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col sm={12} lg={4}>
               <div class="card border-0 wbg-gy" style={{ background: '#f4f4f4' }} >
                 <img src="images/simple.svg" class="card-img-top n_icon" alt="..." />
                 <div class="card-body text-center">
@@ -140,7 +140,7 @@ function productRationalization() {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col sm={12} lg={4}>
               <div class="card border-0 wbg-gy" style={{ background: '#f4f4f4' }}>
                 <img src="images/rich.svg" class="card-img-top n_icon" alt="..." />
                 <div class="card-body text-center">
@@ -152,7 +152,7 @@ function productRationalization() {
 
 
           <Row className='mt-4'>
-            <Col >
+            <Col sm={12} lg={4}>
               <div class="card border-0 wbg-gy" style={{ background: '#f4f4f4' }}>
                 <img src="images/configuration.svg" class="card-img-top n_icon" alt="..." />
                 <div class="card-body text-center">
@@ -161,7 +161,7 @@ function productRationalization() {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col sm={12} lg={4}>
               <div class="card border-0 wbg-gy" style={{ background: '#f4f4f4' }}>
                 <img src="images/extensibility.svg" class="card-img-top n_icon" alt="..." />
                 <div class="card-body text-center">
@@ -170,7 +170,7 @@ function productRationalization() {
                 </div>
               </div>
             </Col>
-            <Col>
+            <Col sm={12} lg={4}>
               <div class="card border-0 wbg-gy" style={{ background: '#f4f4f4' }}>
                 <img src="images/automation.svg" class="card-img-top n_icon" alt="..." />
                 <div class="card-body text-center">
@@ -180,6 +180,48 @@ function productRationalization() {
             </Col>
           </Row>
         </Container>
+      </Container>
+      
+      <Container>
+      <Row className="row m-lg-5 position-relative p-0">
+          <Col sm={12} lg={6} className='p-0'>
+            <img className="img-fluid "
+              src="images/Artboard-2-1.jpg"
+            />
+          </Col>
+          <Col lg={7} className='d-lg-flex d-none flex-column justify-content-center position-absolute top-50 bottom-50 end-0 ' >
+            <Card className=' shadow rounded-0 p-4 '>
+              <Card.Title>Make a Smooth Transition to Mandatory e-Invoicing in the KSA</Card.Title>
+              <Card.Body className='c_body'>
+                <Card.Text>
+                  Access our e-Book to get started with e-invoicing. In this eBook, we provide guidance to financial institutions in the KSA about the nuances of e-invoicing, how to ensure a smooth integration of VAT and e-invoicing systems, and considerations for deploying a robust e-invoicing solution with the right partner to get you ready in time.
+                </Card.Text>
+              </Card.Body>
+              <Link href="/ebooks/e-invoicing-ebook/" target='_blank' className='rounded-1 expand-btn w-50'>Download the eBook Now</Link>
+            </Card>
+          </Col>
+          <Col className='d-lg-none d-flex flex-column justify-content-center p-0' >
+            <Card className='c_shadow rounded-0 p-4 '>
+              <Card.Title>Make a Smooth Transition to Mandatory e-Invoicing in the KSA</Card.Title>
+              <Card.Body className='c_body'>
+                <Card.Text>
+                  Access our e-Book to get started with e-invoicing. In this eBook, we provide guidance to financial institutions in the KSA about the nuances of e-invoicing, how to ensure a smooth integration of VAT and e-invoicing systems, and considerations for deploying a robust e-invoicing solution with the right partner to get you ready in time.
+                </Card.Text>
+              </Card.Body>
+              <Link href="/ebooks/e-invoicing-ebook/" target='_blank' className='rounded-1 expand-btn w-100'>Download the eBook Now</Link>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+
+      
+      <Container className='wbg-gy'>
+        <div className=''>
+           <p className='fs-3 d-flex justify-content-center'>Be up to speed in a changing market with SunTec Xelerate by your side.</p>
+           <div className='text-center'>
+           <Button href="request-a-demo/" target='_blank' className='rounded-1 b-btn  mb-3'>Accelerate with SunTec Xelerate</Button>
+           </div></div>
+
       </Container>
       <Insights tags="336" />
       <Footer />

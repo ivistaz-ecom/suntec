@@ -71,9 +71,9 @@ function LinksExample() {
       <Container className="p-3 b-banner" fluid style={{
         backgroundImage: `url(${PostImage})`
       }}>
-        <Row>
+        <Row className='mt-4'>
           <Col>
-            <div className="square-dark">
+            <div className="square-dark mt-5">
               <div class="lin-dark"></div>
               <div className="square-text-dark ">
                 <h1 className="fs-1">SunTec Personalization Solution for Banking</h1>

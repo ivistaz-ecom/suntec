@@ -116,7 +116,7 @@ function AccountSolutions() {
       }}>
         <Row>
           <Col className='d-flex flex-lg-row flex-colum align-content-center'>
-            <div className="square-light">
+            <div className="square-light mt-4">
               <div class="lin-light"></div>
               <div className="square-text-light ">
                 <h1 className="fs-1">{PostTitle}</h1>

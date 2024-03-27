@@ -76,9 +76,9 @@ function Platforms() {
           backgroundImage: `url(${PostImage})`,
         }}
       >
-        <Row>
+        <Row className='mt-5'>
           <Col xm={12} sm={4}>
-            <div className="square-dark ">
+            <div className="square-dark mt-5">
               <div class="lin-dark"></div>
               <div className="square-text-dark ">
                 <h1 className="fs-1">{PostTitle}</h1>

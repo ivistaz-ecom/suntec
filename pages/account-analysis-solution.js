@@ -81,7 +81,7 @@ function AccountSolutions() {
       }}>
         <Row>
           <Col className='d-flex align-content-center'xm={12} >
-            <div className="square-dark">
+            <div className="square-dark mt-5">
               <div class="lin-dark"></div>
               <div className="square-text-dark ">
                 <h1 className="fs-1">{PostTitle}</h1>
@@ -216,7 +216,7 @@ function AccountSolutions() {
             scenarios for our account analysis solution in your bank:</p>
           <Row>
             <Col>
-              <div className="card mb-3 border-0 rounded-0 wbg-green p-3" >
+              <div className="card mb-3 border-0 rounded-0 wbgs-green p-3" >
                 <div class="card-body">
                   <h5 class="card-title wbg-greent text-white p-3">Reduce revenue<br />leakage risks</h5>
                   <ExpandableContent
@@ -246,7 +246,7 @@ function AccountSolutions() {
               </div>
             </Col>
             <Col>
-              <div class="card mb-3 border-0 rounded-0 wbg-green p-3" >
+              <div class="card mb-3 border-0 rounded-0 wbgs-green p-3" >
                 <div class="card-body">
                   <h5 class="card-title wbg-greent text-white p-3">Partner ecosystem<br />management</h5>
                   <ExpandableContent
@@ -264,7 +264,7 @@ function AccountSolutions() {
               </div>
             </Col>
             <Col>
-              <div class="card mb-3 border-0 rounded-0 wbg-green p-3" >
+              <div class="card mb-3 border-0 rounded-0 wbgs-green p-3" >
                 <div class="card-body">
                   <h5 class="card-title wbg-greent text-white p-3">Hybrid interest<br />accounts</h5>
                   <ExpandableContent

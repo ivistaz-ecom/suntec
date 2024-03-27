@@ -76,7 +76,7 @@ function LinksExample() {
 
 <Row>
 <Col>
-<div className="square-dark">
+<div className="square-dark mt-5 ">
 <div class="lin-dark"></div>
 <div className="square-text-dark ">
 <h1 className="fs-1">SunTec Banking-as-a-Service Solution</h1>

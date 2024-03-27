@@ -73,7 +73,7 @@ function productRationalization() {
         <Container>
         <Row className=''>
           
-            <Col className='d-flex align-content-center  '>
+            <Col className='d-flex align-content-center '>
               <div className="square-texts-dark ">
                 <h1 className="fs-1 text-white">{PostTitle}</h1>
               </div>
@@ -167,7 +167,7 @@ function productRationalization() {
         backgroundImage: `url("/images/how_suntec_can_empower.png")`
       }}>
         <Row>
-          <Col lg={8}>
+          <Col sm={12} lg={8}>
             <div className="text-white" >
               <h1>How SunTec Can Empower Banks with an Effective Bundling Solution</h1>
               <p className="fs-5">SunTec Xelerate operates as a ‘wrap-around’ over existing core banking systems to enhance functionality. It circumvents the architectural constraints of the bank’s legacy systems and extracts data from disparate systems to provide a holistic view of the customer. Powered with advanced analytics, the platform empowers product leaders in the bank to effectively bundle, price, bill, and manage revenues.</p>
@@ -181,7 +181,7 @@ function productRationalization() {
       }}>
         <Row>
           <Col></Col>
-          <Col lg={6}>
+          <Col sm={12} lg={6}>
             <div className="text-white" >
               <h2 className='fs-1'>SunTec Solution - Key Benefits</h2>
               <p className="fs-5 px-text">Increase customer acquisition, retention, and loyalty by offering hyper-personalized product bundles.</p>
