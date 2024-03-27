@@ -222,7 +222,7 @@ const Xelerate = () => {
       <Container className="p-3 b-banner mt-5" fluid style={{
         backgroundImage: `url("/images/accelerate-digital-transformation.jpg")`
          }}>
-        <Container className="wbg-gy p-4">
+        <Container className="p-4">
           <h2>Accelerate your Digital Transformation Journey</h2>
           <p>SunTec Xelerate poses no risk for organizations who want to accelerate their digital transformation journey, without having to replace their functionally stable legacy core systems.</p>
           <p>SunTec Xelerate simplifies the process by hollowing out customer engagement functions from the core system and managing it as a horizontal cross-enterprise layer. The enhanced product innovation capabilities of the platform coupled with sophisticated customer data management functions and partner ecosystem management enable organizations to effectively realize their revenues across the enterprise value chain.</p>
