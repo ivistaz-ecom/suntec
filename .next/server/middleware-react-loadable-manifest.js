@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"../components/ClientsLogo.js -> react-owl-carousel":{id:2568,files:["static/chunks/2568.377484dac6179f4e.js"]},"../components/Testimonails.js -> react-owl-carousel":{id:2568,files:["static/chunks/2568.377484dac6179f4e.js"]}};
+self.__REACT_LOADABLE_MANIFEST={}
