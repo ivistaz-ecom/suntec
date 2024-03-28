@@ -432,7 +432,7 @@ li h6:hover {
 }
 
 .r-btn {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   fill: #96509f;
   color: #96509f;
@@ -532,10 +532,18 @@ li h6:hover {
 }
 
 .left-opp {
-  width: 50% !important;
-  height: 340px;
-  padding-top: 77px;
-  padding-left: 32px;
+  /* width: 50% !important; */
+  height: 300px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .left-opp {
+    width: 50% !important;
+    height: 340px;
+    padding-top: 77px;
+    padding-left: 32px;
+  }
 }
 
 .m-head {
@@ -548,9 +556,28 @@ li h6:hover {
 }
 
 .right-opp {
-  position: absolute;
-  right: 100px;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .right-opp {
+    position: absolute;
+    right: 100px;
+    margin-top: 50px;
+  }
+}
+
+.i-frame {
+  width: 355px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .i-frame {
+    width: 600px;
+    height: 400px;
+  }
 }
 
 .b-box {
